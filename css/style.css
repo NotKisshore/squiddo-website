@@ -1,0 +1,92 @@
+@font-face {
+  font-family: determination;
+  src: url(../assets/determination.woff);
+}
+
+html, body {
+  font-family: determination;
+  color: white;
+}
+
+p {
+  font-size: 2em;
+}
+
+a {
+  color: white !important;
+}
+
+#ui {
+  height: 600px;
+}
+
+#container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#main_text {
+  z-index: 9;
+  margin-left: 2rem;
+  margin-top: 25rem;
+  padding-right: 19rem;
+  position: absolute;
+  text-align: left !important;
+}
+
+.side_text {
+  z-index: 9;
+  position: absolute;
+  left: 50px;
+  padding-left: 480px;
+  text-align: left !important;
+}
+
+#youtube {
+  top: 393px;
+}
+
+#discord {
+  top: 443px;
+}
+
+#twitter {
+  top: 493px;
+}
+
+#smp {
+  top: 543px;
+}
+
+#heart {
+  z-index: 9;
+  margin-left: 31rem;
+  margin-top: 25rem;
+  position: absolute;
+  text-align: left !important;
+}
+
+#spamlaugh {
+  opacity: 0.2;
+  z-index: 9;
+  bottom: 0px;
+  right: 0px;
+  position: absolute;
+}
+
+@media only screen and (max-width: 640px) {
+  #container {
+    width: 80%;
+    height: 50%;
+  }
+  #main_text {
+    z-index: 9;
+    margin-left: 2rem;
+    margin-top: 25rem;
+    padding-right: 30rem;
+    position: absolute;
+    text-align: left !important;
+  }
+}
